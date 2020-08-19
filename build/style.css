@@ -31,22 +31,35 @@
   justify-content: center;
 }
 
-.sort-button {
+.action-button {
   cursor: pointer;
 }
 
-.sorts span {
+.actions span {
   display: flex;
   align-items: center;
   justify-content: center;
   width: auto;
 }
-.sort-label {
+.action-label {
   font-weight: 1000;
 }
 
-.sorts {
+.chip.teal {
+  border: 2px solid #ffea00;
+}
+
+.actions {
   margin: 20px auto;
+}
+
+.todo-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rs-container button {
+  background: transparent !important;
 }
 @media (max-width: 760px) {
   .todo {
